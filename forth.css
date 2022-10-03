@@ -143,5 +143,39 @@ h3{
     font-size: 40px;
 }
 
+.center{
+    position: fixed;
+    border: 2px solid red;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    top: calc((100vh - 150px)/2);
+    left: calc((100vw - 300px)/2);
+
+}
+button{
+    color: red;
+    border-radius: 20px;
+    padding: 10px;
+    width: 70px;
+}
+.button:hover{
+    color: brown;
+}
+input{
+    box-shadow: 2px 2px 7px gray ;
+}
+.main{
+    
+    position: relative;
+    top: 150px;
+    filter: blur(3px);
+}
+
+
+
+
 
 
